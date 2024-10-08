@@ -16,13 +16,13 @@ This project automates the login functionality for a mobile app (Android & iOS) 
    npm install
    
 2. Start the Appium server:
-   bash
+   ```bash
    appium
 
 3. Run the tests:
-   bash
+   ```bash
    npm test
 
 4. Generate and view the Allure Report:
-   bash
+   ```bash
    npm run allure-report
