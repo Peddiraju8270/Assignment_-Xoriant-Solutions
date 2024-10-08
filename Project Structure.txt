@@ -1,0 +1,13 @@
+Project Structure-below format helps to create correct way
+
+├── features
+│   ├── login.feature
+│   └── step-definitions
+│       └── loginSteps.js
+├── pageobjects
+│   └── LoginPage.js
+├── data
+│   └── loginUsers.js
+├── wdio.conf.js
+├── package.json
+└── README.md

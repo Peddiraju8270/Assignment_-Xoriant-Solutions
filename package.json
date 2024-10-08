@@ -1,0 +1,22 @@
+{
+  "name": "mobile-automation-qa",
+  "version": "1.0.0",
+  "description": "Mobile Automation Project for Android and iOS using WebdriverIO, Appium, and Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "allure-report": "allure generate allure-results --clean && allure open"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.16.10",
+    "@wdio/appium-service": "^7.16.10",
+    "@wdio/cucumber-framework": "^7.16.10",
+    "@wdio/allure-reporter": "^7.16.10",
+    "webdriverio": "^7.16.10",
+    "appium": "^2.0.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.13.8",
+    "chai": "^4.3.4"
+  }
+}

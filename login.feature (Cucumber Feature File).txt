@@ -1,0 +1,16 @@
+Feature: Login to the mobile app
+
+  Scenario: Successful login with valid credentials
+    Given I launch the app
+    When I login with valid credentials
+    Then I should see the dashboard page
+
+  Scenario: Failed login with invalid credentials
+    Given I launch the app
+    When I login with invalid credentials
+    Then I should see an error message
+
+  Scenario: Login attempt without entering any credentials
+    Given I launch the app
+    When I try to login without credentials
+    Then I should see an error message for missing details
