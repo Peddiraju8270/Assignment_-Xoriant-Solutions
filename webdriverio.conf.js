@@ -16,7 +16,7 @@ exports.config = {
             automationName: 'XCUITest',
             app: './path/to/iOS-Real-Device-MyRNDemoApp.1.3.0-162.ipa',
             deviceName: 'iPhone 12',
-            platformVersion: '14.5'
+            platformVersion: '16'
         }
     ],
     framework: 'cucumber',
